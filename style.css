@@ -1,0 +1,133 @@
+@media (max-width: 600px) {
+    
+}
+
+#main{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color:rgb(196, 245, 168);
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    }
+
+#header{
+    width: 99.9%;
+    height: 6.5em;
+    position: sticky;
+    display: inline-block;
+    top: 0;
+    background-color: green;
+    color:rgb(196, 245, 168);
+    }
+
+#header-img{
+    width: 5.5em;
+    height: auto;
+    border-radius: 3.5em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+   }
+
+#nav-bar{
+    font-size: 1.2em;
+    float: right;
+    width: 20em;
+    margin-right: 1em;
+    margin-top: 2em;
+    text-align: right;
+    }
+
+.nav-link{
+    color: white;
+    font-size: 1.1em;
+}
+
+#h1{
+        font-size: 1.3em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+#features{
+        font-size: 1.3em;
+        text-align: left;
+        font-weight: bold;
+        padding-left: 2em;
+        line-height: 2em;
+    }
+
+#ramkavid{
+            border: 0.2em solid darkgreen;
+            width: 40em;
+            height: 22.5em;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+}
+
+#video{
+            
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 0em;
+    }
+
+.img{
+            width: 20em;
+            height: auto;
+    }
+
+#products{
+            display: flex;
+            flex-direction: row;
+            background-color: green;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            width: 100%;
+            height: 22em;
+    }
+
+.item{
+            background-color:rgb(196, 245, 168);
+            width: 20em;
+            height: 20em;
+    }
+
+    .p{
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+#form{
+    padding-bottom: 2em;
+    padding-left: 2em;
+    font-size: 1.2em;
+}
+
+#email{
+    width: 15em;
+    height: 2em;
+    border-radius: 0.5em;
+}
+
+#submit{
+    width: 15em;
+    height: 2em;
+    border-radius: 0.5em;
+}
+
+#footer{
+    
+    background-color:green;
+    color:rgb(196, 245, 168);
+    height: 3em;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-bottom: 0em;
+    text-align: left;
+    font-size: 1.2em;
+}
